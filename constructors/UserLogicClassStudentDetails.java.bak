@@ -1,0 +1,12 @@
+class UserLogicClassStudentDetails 
+{
+	public static void main(String[] args) 
+	{
+		StudentDetails s1=new StudentDetails("Rekha",9059836082l,965,"rekharapolu905@gmail.com",98.5,0.0);
+		s1.display1();
+		StudentDetails s2=new StudentDetails("Swetha",6302239264l,925,"swetharapolu23@gmail.com",96.5,98.0);
+		s2.display();
+		StudentDetails s3=new StudentDetails("Seetha",8458787198l,925,"seetharapolu83@gmail.com",65.5,80.9);
+		s3.display();
+	}
+}
