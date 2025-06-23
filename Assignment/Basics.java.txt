@@ -1,0 +1,67 @@
+//swap using 3rd variable
+
+/*public class Basics{
+	public static void main(String[]args){
+		int a=10;
+		int b=20;
+		int c=a;
+		   a=b;
+		   b=c;
+		   System.out.println(a);
+		   System.out.println(b);
+			
+	}
+}*/
+
+//swap without using 3rd variable
+
+/*public class Basics{
+	public static void main(String[]args){
+		int a=10;
+		int b=20;
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println(a);
+		System.out.println(b);
+
+		
+	}
+}*/
+
+//largest num using conditional
+
+/*public class Basics{
+	public static void main(String[]args){
+	int a=250,b=800;
+	System.out.println(a>b?a:b);
+
+	}
+}*/
+
+//even number
+
+/*public class Basics{
+	public static void main(String[]args){
+	int n=21;
+	System.out.println((n%2==0)? n+"is even number":n+" is odd number");
+	}
+}*/
+
+//divisiable by 7
+/*public class Basics{
+	public static void main(String[]args){
+	int n=49;
+	System.out.println((n%7==0)? n+"is divisiable number":n+" is not divisiable number");
+	
+	}
+
+}*/
+
+//smallest number									
+public class Basics{
+	public static void main(String[]args){
+	int a=35,b=60,c=15;
+	System.out.println((a<b)?((a<c)?a:c):((b<c)?b:c));
+	}
+}
