@@ -8,7 +8,7 @@ class AadharInformation {
 	System.out.println(FatherName);
 	String MotherName="Saraswathi";
 	System.out.println(MotherName);
- 	long n=588132674215l;
+ 	long n=5881;
 	System.out.println(n);
 	long PH=9052l;
 	System.out.println(PH);
